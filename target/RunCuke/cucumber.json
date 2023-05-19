@@ -1,0 +1,1734 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8925214100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": ":  verify Job Search Result Using Different data",
+        "description": "",
+        "id": "job-search;:--verify-job-search-result-using-different-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 977541200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 176091700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am On homepage",
+            "match": {
+              "location": "JobSearchSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199023600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter job title \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131293600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Location \"Harrow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harrow",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267750800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select distance \"5 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128740800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "JobSearchSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245139000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter salaryMin \"30000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97293500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salaryMax \"500000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103640100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "JobSearchSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113640900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117382200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "JobSearchSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1977105900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the result \"Permanent Tester jobs in Harrow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Tester jobs in Harrow",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.verifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          },
+          {
+            "line": 3,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6009569000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": ":  verify Job Search Result Using Different data",
+        "description": "",
+        "id": "job-search;:--verify-job-search-result-using-different-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 917897100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am On homepage",
+            "match": {
+              "location": "JobSearchSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253127700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter job title \"Developer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Developer",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109759700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Location \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139161500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select distance \"7 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95153800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "JobSearchSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263667900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter salaryMin \"28000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108036200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salaryMax \"32000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102914100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "JobSearchSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112087600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115129300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "JobSearchSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2463145900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the result \"Permanent Developer jobs in London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Developer jobs in London",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.verifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          },
+          {
+            "line": 3,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3919569600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": ":  verify Job Search Result Using Different data",
+        "description": "",
+        "id": "job-search;:--verify-job-search-result-using-different-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 891011700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am On homepage",
+            "match": {
+              "location": "JobSearchSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 296389800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter job title \"Senior Business Analyst\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Senior Business Analyst",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113742300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Location \"Birmingham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Birmingham",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148539000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select distance \"10 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97427900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "JobSearchSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262188000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter salaryMin \"40000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89434700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salaryMax \"45000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104117300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "JobSearchSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108861400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112391900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "JobSearchSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2208545700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the result \"Permanent Senior Business Analyst jobs in Birmingham\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Senior Business Analyst jobs in Birmingham",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.verifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          },
+          {
+            "line": 3,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3875689800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": ":  verify Job Search Result Using Different data",
+        "description": "",
+        "id": "job-search;:--verify-job-search-result-using-different-data;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 855146000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am On homepage",
+            "match": {
+              "location": "JobSearchSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 272353700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter job title \"Test Analyst\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test Analyst",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113521100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Location \"West London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "West London",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76851800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select distance \"15 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99122100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "JobSearchSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275705200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter salaryMin \"39000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "39000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94706800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salaryMax \"45000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112963500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "JobSearchSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107683800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113325500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "JobSearchSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2002944300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the result \"Permanent Test Analyst jobs in West London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Test Analyst jobs in West London",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.verifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          },
+          {
+            "line": 3,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4362111400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": ":  verify Job Search Result Using Different data",
+        "description": "",
+        "id": "job-search;:--verify-job-search-result-using-different-data;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 914864900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am On homepage",
+            "match": {
+              "location": "JobSearchSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 197552500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter job title \"Test Engineer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test Engineer",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152277500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Location \"Somerset\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Somerset",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132873800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select distance \"10 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84052200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "JobSearchSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285980600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter salaryMin \"3000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102444400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salaryMax \"4000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97228100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salaryType \"Per month\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per month",
+                  "offset": 21
+                }
+              ],
+              "location": "JobSearchSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101484100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select jobType \"Contract\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111081800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "JobSearchSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1609693100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the result \"Contract Test Engineer jobs in Somerset\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Test Engineer jobs in Somerset",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.verifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          },
+          {
+            "line": 3,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3828508900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": ":  verify Job Search Result Using Different data",
+        "description": "",
+        "id": "job-search;:--verify-job-search-result-using-different-data;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 840150100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am On homepage",
+            "match": {
+              "location": "JobSearchSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243165900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter job title \"Test Manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test Manager",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113785800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Location \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180208300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select distance \"10 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126499900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "JobSearchSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 305450700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter salaryMin \"4000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103583200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salaryMax \"5000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121735800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salaryType \"Per month\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per month",
+                  "offset": 21
+                }
+              ],
+              "location": "JobSearchSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115891700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select jobType \"Contract\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159039500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "JobSearchSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2651501800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the result \"Contract Test Manager jobs in London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Test Manager jobs in London",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.verifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          },
+          {
+            "line": 3,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3842797400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": ":  verify Job Search Result Using Different data",
+        "description": "",
+        "id": "job-search;:--verify-job-search-result-using-different-data;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 845673600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am On homepage",
+            "match": {
+              "location": "JobSearchSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263971600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter job title \"Development Manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Development Manager",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112953100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter Location \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70268400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select distance \"15 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98829600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on moreSearchOptionsLink",
+            "match": {
+              "location": "JobSearchSteps.iClickOnMoreSearchOptionsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249355500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter salaryMin \"50000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMin(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102744000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salaryMax \"60000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60000",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.iEnterSalaryMax(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114562800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salaryType \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 21
+                }
+              ],
+              "location": "JobSearchSteps.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121942500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select jobType \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 18
+                }
+              ],
+              "location": "JobSearchSteps.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104589200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \u0027Find Jobs\u0027 button",
+            "match": {
+              "location": "JobSearchSteps.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3097138200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the result \"Permanent Development Manager jobs in London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Development Manager jobs in London",
+                  "offset": 19
+                }
+              ],
+              "location": "JobSearchSteps.verifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          },
+          {
+            "line": 3,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Job Search",
+    "description": "",
+    "id": "job-search",
+    "keyword": "Feature",
+    "uri": "JobSearch.feature"
+  }
+]
